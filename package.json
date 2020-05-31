@@ -1,0 +1,31 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src -e js src/app.js 3000 http://localhost:3000",
+    "node1": "nodemon --watch src -e js src/app.js 3001 http://localhost:3001",
+    "node2": "nodemon --watch src -e js src/app.js 3002 http://localhost:3002",
+    "node3": "nodemon --watch src -e js src/app.js 3003 http://localhost:3003",
+    "node4": "nodemon --watch src -e js src/app.js 3004 http://localhost:3004",
+    "node5": "nodemon --watch src -e js src/app.js 3005 http://localhost:3005"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sha256": "^0.2.0",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}

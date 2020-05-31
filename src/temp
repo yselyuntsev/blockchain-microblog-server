@@ -1,0 +1,32 @@
+
+  // UserService.create({
+  //   username: "alex",
+  //   password: "hello",
+  //   name: "Alex Smith",
+  //   description: "Analyst, streamer, commentator, bloger 😜 Huge Dota 2 fan 😻",
+  // });
+
+  // UserService.create({
+  //   username: "john",
+  //   password: "trivolta",
+  //   name: "John Kaggle",
+  //   description: "Dev-ops master",
+  // });
+
+  // UserService.create({
+  //   username: "steeve",
+  //   password: "trivolta",
+  //   name: "Steeve Smith",
+  //   description: "Game developer",
+  // });
+
+  // PostService.create({
+  //   user: {
+  //     username: "alex",
+  //     name: "Steeve Smith",
+  //     description: "Game developer",
+  //     subscriptions: [],
+  //   },
+  //   data:
+  //     "ток проснулся, вставать впадлу, че там Террария вышла уже или нет еще?",
+  // });
